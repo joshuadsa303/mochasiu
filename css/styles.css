@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  color: #9d0b0b;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-size: 3rem;
+  color: #b52b65;
+  font-family: 'Sacramento', cursive;
+  font-weight: solid;
+}
+
+h3{
+  font-size: 3rem;
+  color: #11999E;
+  font-family: 'Sacramento', cursive;
+  font-weight: solid
+}
+
+a{
+  color: #11999E;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 2rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+p{
+  font-size: 2.5rem;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+  color: #9d0b0b;
+}
+
+hr{
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.mocha1{
+  margin-top: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.bottomcloud{
+  position: absolute;
+  left: 9.375rem;
+  bottom: 31.25rem;
+  height: 100px;
+  width: 200px;
+}
+
+.topcloud{
+  position: absolute;
+  margin-right: 0px;
+  right: 12.5rem;
+  top: 20.625rem;
+  height: 100px;
+  width: 200px;
+
+}
+.msiu{
+  height: 250px;
+  width: 280px;
+}
+
+.chillies{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.computer{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.top{
+background-color: #ffc6c7;
+position: relative;
+padding-top: 100px;
+}
+
+.medium{
+background-color: #faeee7;
+position: relative;
+margin-top: 0;
+}
+
+.bottom{
+background-color: #ffe3ed;
+position: relative;
+padding: 50px 0 20px 0;
+}
+
+.copyright{
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:12px;
+	border:2px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Sacramento', cursive;
+	font-size:30px;
+	font-weight:bold;
+	padding:15px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
